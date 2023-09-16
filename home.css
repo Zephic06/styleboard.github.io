@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: white;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 100px;
+    backdrop-filter: blur(100px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo {
+    font-size: 32px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: #000;
+    font-weight: 750;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height:2px;
+    background: #000;
+    transition: .3s;
+}
+
+.navbar a:hover:before{
+    width: 100%;
+
+}
+
+.container-1{
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font: poppins;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+.text-1 h1{
+    font-size: 64px;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.text-1 h2{
+    font-size: 24px;
+    color: #4A525A;
+    text-align: center;
+}
+
+.text-2{
+    padding: 5%;
+    width: 80%;
+    text-align: center;
+}
+
+.button-1{
+    border: 2px solid #000;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: 500;
+}
+
+.button-1 a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.button-1:hover{
+    transform: scale(105%);
+    transition: transform 0.3s ease, color 0.3s ease;
+}

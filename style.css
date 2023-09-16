@@ -56,17 +56,24 @@ body {
 
 }
 
-.container {
-    top: 80px;
-    left: 20px;
-    position: absolute;
+.intro{
+    padding-top: 100px;
     display: flex;
-    justify-content: space-between;
-    gap: 10%;
+}
+
+.container {
+
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
 }
 
 .item-1 {
+    position: relative;
+    display: flex;
     margin: 5;
     height: 12cm;
     width: 8cm;
@@ -76,10 +83,38 @@ body {
     padding-right: 1cm;
 }
 
+.item-1 img {
+    max-width: 100%;
+    max-height: 100%;
+    size: 50%;
+}
+
+.item-1 h1{
+    text-align: center;
+    color: white;
+}
+
+.item-1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border: 2px solid #000;
+    background: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: 500;
+    align-self: last baseline
+}
+
 .item-2 {
+    position: relative;
+    display: flex;
     margin: 5;
-    height: 11cm;
-    width: 6cm;
+    height: 12cm;
+    width: 8cm;
     border-radius: 5%;
     background-color: #2F2D2E;
     backdrop-filter: blur(100px);
@@ -87,9 +122,35 @@ body {
 }
 
 .item-3 {
+    position: relative;
+    display: flex;
     margin: 5;
-    height: 11cm;
-    width: 6cm;
+    height: 12cm;
+    width: 8cm;
+    border-radius: 5%;
+    background-color: #2F2D2E;
+    backdrop-filter: blur(100px);
+    padding-right: 1cm;
+}
+
+.item-4 {
+    position: relative;
+    display: flex;
+    margin: 5;
+    height: 12cm;
+    width: 8cm;
+    border-radius: 5%;
+    background-color: #2F2D2E;
+    backdrop-filter: blur(100px);
+    padding-right: 1cm;
+}
+
+.item-5 {
+    position: relative;
+    display: flex;
+    margin: 5;
+    height: 12cm;
+    width: 8cm;
     border-radius: 5%;
     background-color: #2F2D2E;
     backdrop-filter: blur(100px);
