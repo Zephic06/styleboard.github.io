@@ -116,6 +116,11 @@ body {
     top: 10cm;
 }
 
+.item-1:hover{
+    transform: scale(105%);
+    transition: 0.3s;
+}
+
 .item-2 {
     position: relative;
     display: flex;
@@ -159,6 +164,11 @@ body {
     position: absolute;
     left: 1.8cm;
     top: 10cm;
+}
+
+.item-2:hover{
+    transform: scale(105%);
+    transition: 0.3s;
 }
 
 .item-3 {
@@ -206,6 +216,11 @@ body {
     top: 10cm;
 }
 
+.item-3:hover{
+    transform: scale(105%);
+    transition: 0.3s;
+}
+
 .item-4 {
     position: relative;
     display: flex;
@@ -251,6 +266,11 @@ body {
     top: 10cm;
 }
 
+.item-4:hover{
+    transform: scale(105%);
+    transition: 0.3s;
+}
+
 .item-5 {
     position: relative;
     display: flex;
@@ -294,4 +314,9 @@ body {
     position: absolute;
     left: 1.8cm;
     top: 10cm;
+}
+
+.item-5:hover{
+    transform: scale(105%);
+    transition: 0.3s;
 }
